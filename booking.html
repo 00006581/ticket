@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Booking web service</title>
+	<meta charset="utf-8">
+   <meta name="viewport" content="width=device-width">
+   <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body class="light">
+  <header id="branding">
+      	<div class="container">
+      	      
+         <img  class="logo" src="images/logo.jpg" alt="picture of logo" >
+
+      		<nav>
+                     <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="movies.html">Movies</a></li>
+                        <li><a href="cartoons.html">Cartoons</a></li>
+                        <li class="active"><a href="booking.html">Booking</a></li>
+                        <li><a href="contact page.html">Contact page</a></li>
+                        <li><a href="about us.html">About us</a></li>
+
+                     </ul>
+                  </nav>
+      	</div>
+
+      </header>
+                  
+         <div class="section">
+           <h3><span>Now Playing</span></h3>
+           <table>
+              <tr>
+                 <th>Date</th>
+                 <th>Film's name</th>
+                 <th>Room</th>
+                 <th>Time</th>
+              </tr>
+              <tr>
+                 <th rowspan="2">November 15</th>
+                 <td class="selected">Venom</td>
+                 <td>VIP room</td>
+                 <td>10:00 14:00 16:00 22:00</td>
+              </tr>
+              <tr>
+                 <td>Ralph breaks the Internet</td>
+                 <td>Small hall</td>
+                 <td>10:00 14:00 16:00</td>
+              </tr>
+               <tr>
+                  <th rowspan="2">November 16</th>
+                  <td>Smallfoot</td>
+                  <td>Big hall</td>
+                  <td>10:00 12:00 16:00 18:00</td>
+               </tr>
+               <tr>
+                  <td class="selected">The Crimes of Grindewald</td>
+                  <td>VIP room</td>
+                  <td>18:00 20:00 22:00</td>
+               </tr>
+               <tr>
+                  <th rowspan="2">November 17</th>
+                  <td>Haunted Halloween</td>
+                  <td>Small hall</td>
+                  <td>10:00 14:00 18:00</td>
+               </tr>
+               <tr>
+                  <td>The Grinch</td>
+                  <td>Big hall</td>
+                  <td>12:00 14:00 16:00 22:00</td>
+               </tr>
+               <tr>
+                  <th>November 18</th>
+                  <td>Venom</td>
+                  <td>Small hall</td>
+                  <td>10:00 12:00 16:00 18:00</td>
+               </tr>
+               <tr>
+                  <th rowspan="2">November 19</th>
+                  <td class="selected">Smallfoot</td>
+                  <td>VIP room</td>
+                  <td>16:00 18:00 20:00 22:00</td>
+               </tr>
+               <tr>
+                  <td>The Crimes of Grindewald</td>
+                  <td>Big hall</td>
+                  <td>18:00 20:00</td>
+               </tr>
+
+           </table>
+
+
+</div>
+
+  
+
+
+             <div class="font">
+            <h3>Get Started</h3>
+            </div>
+            <form id="form">
+               <input type="text" id="name" name="" placeholder="Name" class="form-input">
+               <select id="order" class="order_movie">
+                  <option value="">Make a choice</option>
+                  <option value="smallfoot">Smallfoot</option>
+                  <option value="venom">Venom</option>
+                  <option value="ralph">Ralph breaks the Internet</option>
+                  <option value="grindewald">The Crimes of Grindewald</option>
+                  <option value="halloween">Haunted Halloween</option>
+                  <option value="grinch">The Grinch</option>
+               </select>
+            <br><br>
+           <select id="number_list" class="date">
+              <option value="">Number of people</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+           </select>
+           <br> <br>
+           <input type="date" name="bday" class="date" id="date_time"> <br> <br>
+           <button id="send"; style="vertical-align: middle;">Send</button>
+           </form>
+
+<footer>
+            <p>Copyright &copy;2018 All rigths reserved and it is made by 00006581.</p>
+      </footer>
+      <script src="script.js"></script>
+</body>
+</html>
